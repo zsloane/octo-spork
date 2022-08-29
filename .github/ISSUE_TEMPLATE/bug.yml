@@ -1,0 +1,36 @@
+name: Bug Report
+description: File a bug report
+title: "🐛 "
+labels: ["bug", "triage"]
+assignees:
+  - zsloane
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: summary
+    attributes:
+      label: Issue Summary
+      description: Please provide details of the bug
+      placeholder: Describe what happened...
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: Affected Product
+    attributes:
+      label: Affected Product
+      description: Whice products are affected?
+      options:
+        - iPhone
+        - iPad
+        - Macbook
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Please provide steps to reproduce the issue.
