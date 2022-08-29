@@ -19,7 +19,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: Affected Product
+    id: affected-product
     attributes:
       label: Affected Product
       description: Whice products are affected?
