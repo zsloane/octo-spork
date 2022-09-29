@@ -17,7 +17,7 @@ body:
       placeholder: Describe what happened...
       value: "A bug happened!"
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: affected-product
     attributes:
@@ -28,7 +28,7 @@ body:
         - iPad
         - Macbook
     validations:
-      required: true
+      required: false
   - type: textarea
     id: steps
     attributes:
